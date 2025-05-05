@@ -1,6 +1,5 @@
 
 
-
 # 1 Basic 
 
 
@@ -19,7 +18,7 @@
 ![[image/Pasted image 20250430162959.png]]
 
 
-# 2 Relational Opearator 
+# 2 Relational Operator 
 
 ![[image/Pasted image 20250430163539.png]]
 
@@ -37,7 +36,7 @@
 
 
 
-# 3 MapReduce (Hadoop )
+# 3 MapReduce (Hadoop)
 
 ![[image/Pasted image 20250430164604.png]]
 
