@@ -96,6 +96,18 @@ why sort-Merge at first, why not send the data into Reduce  directly after map
 HDFS（Hadoop Distributed File System）是 Hadoop 的核心组件之一，用于存储大规模数据的分布式文件系统。它非常适合一次写入、多次读取的批处理型大数据应用，比如日志分析、搜索索引构建等。
 
 
+## 3.3 例子
+
+![[image/Pasted image 20250522180058.png]]
+
+![[image/Pasted image 20250522180111.png]]
+
+
+
+
+
+
+
 # 4 Resilient Distributred Datasets (Spark)
 
 
