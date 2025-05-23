@@ -105,10 +105,19 @@ HDFS（Hadoop Distributed File System）是 Hadoop 的核心组件之一，用�
 
 
 
+# 4 Distributed Matrix Vector Multiplication in MapReduce
+
+1 Matrix-Vector Multiplication with Regular MapReduce
+![[image/Pasted image 20250523105514.png]]
 
 
+2 Matrix-Vector Multiplication with Broadcast Join
+![[image/Pasted image 20250523105749.png]]
 
-# 4 Resilient Distributred Datasets (Spark)
+1 和2 得到的最终的结果 r1 r2, .. rn 的值 是一样的 
+
+
+# 5 Resilient Distributred Datasets (Spark)
 
 
 ![[image/Pasted image 20250430171526.png]]
@@ -121,7 +130,7 @@ you do parallel computations on this rdds again using high level operators
 
 
 
-## 4.1 how to create a RDD from datasource 
+## 5.1 how to create a RDD from datasource 
 
 ![[image/Pasted image 20250430171855.png]]
 
@@ -148,7 +157,7 @@ co coreletive
 ![[image/Pasted image 20250430172809.png]]
 
 
-## 4.2 Lineage-Based Recovery 
+## 5.2 Lineage-Based Recovery 
 
 ![[image/Pasted image 20250430172940.png]]
 
@@ -165,7 +174,7 @@ co coreletive
 you can materialize or safe individual intermediate rdds
 
 
-# 5 Summary 
+# 6 Summary 
 
 ![[image/Pasted image 20250430173733.png]]
 
