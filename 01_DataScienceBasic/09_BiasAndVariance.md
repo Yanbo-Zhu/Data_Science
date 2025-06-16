@@ -45,7 +45,7 @@ it cloud be zero. we can not rejct the null hypothesis
 
 Prediction:   xx data decide xx 
 
-
+Causation:   not directly data-specific 
 
 
 
