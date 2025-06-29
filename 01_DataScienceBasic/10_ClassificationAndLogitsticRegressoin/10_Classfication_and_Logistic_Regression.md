@@ -27,9 +27,17 @@ Linear regression 并不满足某个数据, 完成分类
 ![[image/Pasted image 20250623143517.png]]
 
 
+## 2.1 使用 logrithm 变化 概率计算函数 
 
 
-## 2.1 Handling Non-linear Output
+![[image/Pasted image 20250629184508.png]]
+
+![[image/Pasted image 20250629184517.png]]
+
+
+![[image/Pasted image 20250629184540.png]]
+
+## 2.2 Handling Non-linear Output
 
 
 New modeling goal: model the probability of a datapoint belonging to Class 1.
@@ -44,7 +52,9 @@ Good news: we’ve seen this before! To capture non-linear relationships, we
 
 
 
-### 2.1.1 Step 1: Linearize the Relationship
+### 2.2.1 Step 1: Linearize the Relationship
+
+
 
 
 
