@@ -119,7 +119,7 @@ Bestimmen Sie den jeweils kleinsten (ganzzahligen) Wert für k, mit dem der k-Ne
 
 # 3 Categorical Attribute 
 
-x =` [z, y, z]`
+Attribute  =` [Type 1, Type2, Type3 ]`
 
 将这个  转换成 三个 attribute, jeder is boolean bvalue  boolean value   `z = [true, false],  y[true, false] z [true, false]`   . 这么做的好处 是 每个 atttibute 的值 为 0或者1 ,  没有 那个值更大 更小  
 
@@ -128,7 +128,27 @@ x =` [z, y, z]`
 **所有值之间没有大小之分**，适合机器学习模型使用，比如线性回归、KNN 等，因为它们不应该“误以为”z 比 y 大或小。
 
 
+---
 
+
+- one-hot encoding → 每一类变成一个布尔特征（true/false 或 1/0）
+- label encoding → 每一类被映射成一个数字（如 Type1 → 1，Type2 → 2）    
+- one-hot encoding 没有顺序关系，label encoding 有误导性的“大小”
+
+
+
+Given a categorical attribute like `Attribute = [Type1, Type2, Type3]`, we can transform it into three separate attributes, each with a boolean value:
+
+- `is_Type1 = [true, false, false]`
+    
+- `is_Type2 = [false, true, false]`
+    
+- `is_Type3 = [false, false, true]`
+    
+
+This transformation is called **one-hot encoding**. The advantage of this method is that each attribute is binary (0 or 1), and there is **no implied order or magnitude** between the categories.
+
+Alternatively, if we encode the attribute as `[1, 2, 3]`, we introduce an **artificial numerical relationship** between the categories (i.e., Type1 < Type2 < Type3), which can **mislead the model** into treating categorical values as ordered, which they are not.
 
 
 
